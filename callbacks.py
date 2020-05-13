@@ -1,6 +1,3 @@
-"""
-@author: Elena Stamatelou
-"""
 import dash
 import numpy as np
 import math
