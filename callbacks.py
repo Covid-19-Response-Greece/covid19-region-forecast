@@ -239,11 +239,11 @@ def register_callbacks(app):
     # create the figure
     data=[
           go.Scatter(x=confirmed_selected['index'], y=confirmed_selected['total'], 
-                     mode='lines+markers',marker_color='#F4B400',legendgroup="group1", name='confirmed'), 
+                     mode='markers',marker_color='#F4B400',legendgroup="group1", name='confirmed'), 
           go.Scatter(x=died_selected['index'], y=died_selected['total'], 
-                      mode='lines+markers', marker_color='#DB4437',legendgroup="group2", name='died'), 
+                      mode='markers', marker_color='#DB4437',legendgroup="group2", name='died'), 
           go.Scatter(x=recovered_selected['index'], y=recovered_selected['total'], 
-                     mode='lines+markers',marker_color='#4285F4 ', name='recovered'), 
+                     mode='markers',marker_color='#4285F4 ', name='recovered'), 
           go.Scatter(x=confirmed_predictions.ds, y=confirmed_predictions.yhat, 
                      mode='lines',marker_color='#6b6e6f',legendgroup="group", name= "pred-confirmed", showlegend=False), 
           go.Scatter(x=died_predictions.ds, y=died_predictions.yhat, 
