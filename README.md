@@ -22,7 +22,10 @@ The displayed data shows the confirmed, death and recovered cases throughout the
 For each selected country or region, the user can see some general information about the country or the region such as population, population density, and GDP per capita. 
 
 ### Instructions:
+<strong> Global URL:  </strong>
+The app is deployed in [Heroku server](https://covid-19-regional-forecasting.herokuapp.com/) </br>
 
+<strong> Locally:  </strong>
 Download the folder, run the app.py file and open your local host: http://127.0.0.1:80/
 
 app.py : the main function </br>
